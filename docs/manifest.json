@@ -4,7 +4,6 @@
   "theme_color": "#2196f3",
   "background_color": "#2196f3",
   "display": "standalone",
-  "Scope": "/",
   "start_url": "./",
   "icons": [
     {
@@ -23,7 +22,7 @@
       "type": "image/png"
     },
     {
-      "src": "images/icons/icon-144x144.png",
+      "src": "docs/images/icons/icon-144x144.png",
       "sizes": "144x144",
       "type": "image/png"
     },

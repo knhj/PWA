@@ -4,7 +4,7 @@
   "theme_color": "#2196f3",
   "background_color": "#2196f3",
   "display": "standalone",
-  "start_url": "https: //knhj.github.io/PWA",
+  "start_url": "https: //knhj.github.io/PWA/docs",
   "icons": [
     {
       "src": "images/icons/icon-72x72.png",

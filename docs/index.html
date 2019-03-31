@@ -72,7 +72,16 @@
   </div>
 
   <!-- Bootstrap core JavaScript -->
-
+  <script>
+    //ここにJavaScriptを記述していく
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('./sw.js').then(function () {
+        console.log('サービスワーカーの登録成功');
+      }).catch(function (err) {
+        console.log('サービスワーカーの登録ができませんでした：', err);
+      });
+    }
+  </script>
 
 </body>
 
